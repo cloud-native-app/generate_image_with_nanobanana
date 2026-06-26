@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"FAIL\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": false,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": false,\n  \"summary_ko\": \"FTP STOR 명령 시 데이터 전송 방향이 잘못 표시되어 있어 수정이 필요합니다.\",\n  \"failure_reasons_ko\": [\n    \"FTP STOR 명령의 데이터 전송 방향이 'Data Transfer (Server to Client)'로 잘못 표시되었습니다. STOR 명령은 클라이언트가 서버로 파일을 전송하는 것이므로, 데이터 전송 방향은 클라이언트에서 서버로(C→S)여야 합니다.\",\n    \"이는 FTP 프로토콜의 핵심 개념 중 하나를 오해하게 할 수 있는 중요한 개념적 오류입니다.\"\n  ],\n  \"observed_issues_ko\": [\n    \"FTP STOR 명령의 데이터 전송 방향 오류\"\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1064,
+    "candidatesTokenCount": 242,
+    "totalTokenCount": 3393,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 548
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 2087,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "k6E-as-ZNL_O1e8Pu_yaoAU"
+}

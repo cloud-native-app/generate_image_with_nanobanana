@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"FAIL\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": false,\n  \"title_policy_ok\": false,\n  \"no_internal_code_or_filename\": false,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"상단 코드 배너는 삭제되었으나, 전체 제목이 그림 내부에 남아 있어 제목 정책을 위반하고 수정 요구사항이 완전히 반영되지 않았습니다.\",\n  \"failure_reasons_ko\": [\n    \"요구된 수정사항(전체 제목 삭제)이 완전히 반영되지 않았습니다. 상단 코드 배너는 삭제되었으나, 'DAC·MAC·RBAC·ABAC·CBAC 비교'라는 전체 제목이 그림 내부에 여전히 존재합니다.\",\n    \"제목 정책(내부 전체 제목·그림 코드 금지)을 위반했습니다. 그림 내부에 'DAC·MAC·RBAC·ABAC·CBAC 비교'라는 전체 제목이 남아 있습니다.\"\n  ],\n  \"observed_issues_ko\": [\n    \"상단 코드 배너([P4-F19 DAC·MAC·RBAC·ABAC·CBAC 비교])는 삭제되었으나, 'DAC·MAC·RBAC·ABAC·CBAC 비교'라는 전체 제목이 그림 내용의 일부로 남아 있습니다.\"\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1019,
+    "candidatesTokenCount": 326,
+    "totalTokenCount": 4034,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 503
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 2689,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "baU-asigJaPy2roPyc3mqQY"
+}

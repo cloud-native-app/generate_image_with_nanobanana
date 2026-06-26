@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"Root Bridge에 Root Port가 없고 모든 포트가 Designated/Forwarding이며, 비루트 스위치에 Root Port가 있고 중복 세그먼트의 한쪽이 Alternate/Discarding으로 표시되어 요구된 수정 사항이 정확하게 반영되었습니다. STP 개념도 정확합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1065,
+    "candidatesTokenCount": 181,
+    "totalTokenCount": 2320,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 549
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1074,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "FKE-arKcB7-Q0-kPv4CvqAs"
+}

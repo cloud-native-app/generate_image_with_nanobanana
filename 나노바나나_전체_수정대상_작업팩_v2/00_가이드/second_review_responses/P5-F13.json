@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"FAIL\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": false,\n  \"title_policy_ok\": false,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": false,\n  \"summary_ko\": \"요구된 수정 사항인 '깨진 전체 제목 삭제'가 반영되지 않았으며, 여전히 부적절한 제목이 남아있어 개념적 정확성과 제목 정책을 위반합니다.\",\n  \"failure_reasons_ko\": [\n    \"요구된 수정 사항(깨진 전체 제목 삭제)이 최종 이미지에 반영되지 않았습니다.\",\n    \"그림 상단의 '위험 분석업 vs 가자 비교'라는 제목은 주제(위험분석 접근방법 비교)와 개념적으로 일치하지 않으며, 오탈자로 인해 의미가 왜곡되어 있습니다.\",\n    \"제목 정책(내부 전체 제목·그림 코드 금지)에 따라 부적절한 제목은 제거되어야 했으나, 여전히 남아있습니다.\"\n  ],\n  \"observed_issues_ko\": [\n    \"원래 이미지에 있던 '위험 분석업 vs 가자 비교'라는 제목이 수정된 이미지에도 그대로 남아있습니다.\",\n    \"해당 제목은 '위험분석 접근방법 비교'라는 주제와 맞지 않는 오탈자(가자)를 포함하고 있습니다.\"\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1017,
+    "candidatesTokenCount": 342,
+    "totalTokenCount": 3008,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 501
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1649,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "KaY-aoClJa-l0-kPy62l0QE"
+}

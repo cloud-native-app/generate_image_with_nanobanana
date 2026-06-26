@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"요구된 수정사항이 모두 반영되었으며, 국내 정보보호 법제의 법률별 보호대상 및 목적 차이를 명확하게 지도화하여 개념적으로 정확합니다. 상단 제목과 영어 오탈자가 모두 제거되었습니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1151,
+    "candidatesTokenCount": 169,
+    "totalTokenCount": 2774,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 635
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1454,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "sKM-aoT_JKGG2roP1sOI6A4"
+}

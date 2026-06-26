@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"상단 깨진 제목과 코드가 삭제되었고, '디렉터리 목록 목록'이 '디렉터리 목록'으로 올바르게 수정되었습니다. 다이어그램은 FTP 제어 및 데이터 채널을 정확하게 표현하며, 모든 텍스트가 명확하게 읽힙니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1038,
+    "candidatesTokenCount": 184,
+    "totalTokenCount": 2106,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 522
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 884,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "qqQ-auzGIcus0-kP_ZzY6Qg"
+}

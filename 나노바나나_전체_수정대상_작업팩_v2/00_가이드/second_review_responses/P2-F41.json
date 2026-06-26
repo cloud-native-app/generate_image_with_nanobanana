@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"ACK 스캔의 open/closed 구분 불가 및 RST=unfiltered, 무응답/ICMP=filtered 표시 요구사항이 정확히 반영되었으며, SYN/Connect/FIN-NULL-Xmas/UDP 스캔 결과도 표준 응답으로 잘 정리되었습니다. 전반적인 개념 정확성 및 가독성이 우수합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1056,
+    "candidatesTokenCount": 191,
+    "totalTokenCount": 2629,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 540
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1382,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "QKE-arC_G5bA0-kPoevJ2Qw"
+}

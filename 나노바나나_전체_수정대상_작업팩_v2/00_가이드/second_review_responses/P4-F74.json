@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 0.9,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"요구사항에 따라 상단 제목과 EXAM FOCUS 말풍선이 제거되었고, Password KDF와 HKDF 키 분리 경로가 기능 패널로 잘 구성되었습니다. 각 패널의 내용도 대부분의 요구사항을 충족하며 개념적으로 정확합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": [\n    \"Password KDF 패널에서 요구사항에 명시된 '강화된 마스터 키' 대신 '검증자 저장 해시/파라미터'가 표시되어 있습니다. 이는 KDF의 유효한 출력 및 활용 사례이지만, 요청된 정확한 명칭과는 차이가 있습니다. 다만, 전체적인 KDF 개념 설명에는 문제가 없습니다.\"\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1106,
+    "candidatesTokenCount": 259,
+    "totalTokenCount": 4118,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 590
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 2753,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "LaM-arWOMdu80-kPoYSviQY"
+}

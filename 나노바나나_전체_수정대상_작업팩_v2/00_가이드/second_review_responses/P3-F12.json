@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"요구된 수정사항(Received 헤더 누적 방식, SPF/DKIM/DMARC 일관된 pass 예시, 헤더 요소 분리)이 모두 반영되었으며, 다이어그램의 개념적 정확성과 가독성이 우수합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1073,
+    "candidatesTokenCount": 175,
+    "totalTokenCount": 2632,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 557
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1384,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "vKE-atrVMP7U2roPp7qE0AI"
+}

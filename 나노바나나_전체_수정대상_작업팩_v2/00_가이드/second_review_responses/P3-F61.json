@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"FAIL\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": false,\n  \"summary_ko\": \"요구된 수정사항(세 개의 기능 패널 구성, 짧은 기능명 제목, 전체 제목 및 대괄호 제목 제거)은 잘 반영되었으나, 첫 번째 패널의 제목이 '전자서명 검증'임에도 불구하고 내용은 '전자서명 생성' 과정을 묘사하고 있어 개념적 오류가 있습니다.\",\n  \"failure_reasons_ko\": [\n    \"첫 번째 패널의 제목은 '전자서명 검증'이나, 실제 그림 내용은 '전자서명 생성' 과정을 보여주고 있어 제목과 내용이 일치하지 않습니다. 요구사항은 '전자서명 검증 흐름'을 구성하는 것이었습니다.\"\n  ],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1076,
+    "candidatesTokenCount": 252,
+    "totalTokenCount": 3239,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 560
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1911,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "ZKI-arr9NZim2roPlMiCqA4"
+}

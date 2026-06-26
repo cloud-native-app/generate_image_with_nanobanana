@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"디지털 증거 처리 생명주기 다이어그램이 통합 가이드의 상세 지침과 허용 텍스트에 따라 전면 재생성되었으며, 개념적 정확성, 가독성, 제목 정책 준수 등 모든 요구사항을 충족합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1034,
+    "candidatesTokenCount": 177,
+    "totalTokenCount": 3020,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 518
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1809,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "aqM-aoWGBP-y2roP0bGYqQE"
+}

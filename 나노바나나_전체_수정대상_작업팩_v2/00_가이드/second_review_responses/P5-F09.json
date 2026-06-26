@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"FAIL\",\n  \"confidence\": 0.9,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": false,\n  \"summary_ko\": \"상단 코드와 전체 제목은 삭제되었으나, 분류 등급 목록에 '대외비'와 '공개'가 중복되어 표시되어 개념적 정확성이 부족합니다.\",\n  \"failure_reasons_ko\": [\n    \"분류 등급 목록에 '대외비'와 '공개'가 각각 두 번씩 중복되어 표시되어 있어, 명확한 분류 체계를 나타내지 못합니다.\"\n  ],\n  \"observed_issues_ko\": [\n    \"분류 등급 목록에 '대외비'가 두 번, '공개'가 두 번 나타납니다.\"\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1013,
+    "candidatesTokenCount": 237,
+    "totalTokenCount": 3482,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 497
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 2232,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "FKY-apm8GvOw0-kPxJy3iAI"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"요구된 중복 코드 및 전체 제목 삭제가 성공적으로 반영되었으며, 다이어그램의 내용과 흐름은 유지되었습니다. 정보주체 권리 개념이 정확하게 표현되었고, 텍스트 가독성 및 레이아웃도 양호합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1023,
+    "candidatesTokenCount": 177,
+    "totalTokenCount": 2162,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 507
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 962,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "Dqc-asnVIp7n4-EPuoqPmQg"
+}

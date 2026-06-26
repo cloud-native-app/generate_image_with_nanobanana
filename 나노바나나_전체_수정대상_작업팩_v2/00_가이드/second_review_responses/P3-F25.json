@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"요구된 수정사항(Leaf/Intermediate 인증서 체인, Trust Anchor 명시, 서명/유효기간/SAN/KU/EKU/Basic Constraints/폐기상태 검증)이 모두 반영되었으며, 정보보안 개념적으로 정확하고 가독성이 좋습니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1057,
+    "candidatesTokenCount": 181,
+    "totalTokenCount": 2616,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 541
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1378,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "5aE-av6_K_3X1e8PytOz4QM"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"FAIL\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": false,\n  \"title_policy_ok\": false,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"요구된 수정사항(깨진 전체 제목 삭제)이 반영되지 않았으며, 그림 내부에 전체 제목이 남아 있어 제목 정책을 위반합니다.\",\n  \"failure_reasons_ko\": [\n    \"요구된 수정사항(깨진 전체 제목 삭제)이 반영되지 않았습니다.\",\n    \"그림 내부에 전체 제목(\\\"정보보안 구성 및 변경관리 조로\\\")이 남아 있어 '내부 전체 제목·그림 코드 금지' 정책을 위반합니다.\"\n  ],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1016,
+    "candidatesTokenCount": 219,
+    "totalTokenCount": 2463,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 500
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1228,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "caY-avGlJNWp1e8PuJTf0AU"
+}

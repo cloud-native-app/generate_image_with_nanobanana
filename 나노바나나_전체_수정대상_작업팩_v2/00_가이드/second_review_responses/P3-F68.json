@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"상단 깨진 제목이 삭제되었고, 일부 깨진 라벨이 수정되었으며, 세션 관련 용어가 개선되어 요구사항이 충족되었습니다. 전반적인 다이어그램의 개념적 정확성과 가독성도 우수합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1058,
+    "candidatesTokenCount": 173,
+    "totalTokenCount": 2909,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 542
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1678,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "aKQ-aqm-HMeL0-kPsbGGoAM"
+}

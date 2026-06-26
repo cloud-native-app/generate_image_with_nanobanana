@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"DKIM 서명 및 검증 흐름이 발신자와 수신자의 역할에 맞춰 정확하게 재구성되었으며, Body Hash 생성 및 검증 과정이 명확하게 반영되었습니다. 제목 정책도 잘 준수되었습니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1065,
+    "candidatesTokenCount": 168,
+    "totalTokenCount": 2627,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 549
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1394,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "xqE-as3aJP3X1e8PytOz4QM"
+}

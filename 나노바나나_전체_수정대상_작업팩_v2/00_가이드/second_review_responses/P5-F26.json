@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"통합 가이드의 상세 지침과 허용 텍스트가 정확히 적용되었으며, 물리보안 구역과 출입통제 개념을 명확하게 설명하고 있습니다. 모든 체크리스트 항목을 충족합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1036,
+    "candidatesTokenCount": 170,
+    "totalTokenCount": 2938,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 520
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1732,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "UqM-avK_E4_N1e8PmNPNmQQ"
+}

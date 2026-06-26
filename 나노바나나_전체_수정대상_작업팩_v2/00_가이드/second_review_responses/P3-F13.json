@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"FAIL\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": false,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"상단 제목과 하단 시험 강조점 박스는 제거되었으나, 요구사항에 명시된 'none' SPF 판정 결과가 누락되었습니다.\",\n  \"failure_reasons_ko\": [\n    \"요구된 수정 사항 중 'none' SPF 판정 결과가 오른쪽에 표시되지 않았습니다.\"\n  ],\n  \"observed_issues_ko\": [\n    \"SPF 판정 결과 목록에 'none'이 누락되었습니다.\"\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1074,
+    "candidatesTokenCount": 200,
+    "totalTokenCount": 2462,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 558
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1188,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "gaI-auHtDrul1e8PkZTi6AM"
+}

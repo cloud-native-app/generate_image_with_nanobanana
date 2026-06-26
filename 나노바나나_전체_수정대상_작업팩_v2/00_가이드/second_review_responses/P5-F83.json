@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"최종 이미지는 요청된 모든 수정 사항을 정확히 반영하고 있으며, 개인정보 처리방침 점검 구조를 명확하고 개념적으로 정확하게 제시합니다. 오탈자 없이 한국어 텍스트가 깔끔하며, 제목 정책도 잘 준수되었습니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1136,
+    "candidatesTokenCount": 177,
+    "totalTokenCount": 2492,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 620
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1179,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "9qM-atvOMbaQ0-kP39_tMA"
+}

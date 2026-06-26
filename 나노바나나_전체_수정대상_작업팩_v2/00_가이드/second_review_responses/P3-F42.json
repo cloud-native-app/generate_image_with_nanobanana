@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"FAIL\",\n  \"confidence\": 0.9,\n  \"required_correction_met\": false,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"상단 전체 제목을 제거하라는 지시에도 불구하고 새로운 전체 제목이 추가되어 부분 수정 요구사항이 완전히 반영되지 않았습니다.\",\n  \"failure_reasons_ko\": [\n    \"상단에 'Origin 구성 비교'라는 새로운 전체 제목이 추가되어 '전체 제목 없이' 및 '상단 전체 제목 금지' 지시사항이 완전히 반영되지 않았습니다.\"\n  ],\n  \"observed_issues_ko\": [\n    \"기존의 시험 강조점/금지 주의사항 박스와 상단 전체 제목은 성공적으로 제거되었습니다.\",\n    \"scheme, host, port 비교 및 CORS 관련 조건들이 짧은 라벨로 잘 표시되었습니다.\",\n    \"상단에 'Origin 구성 비교'라는 새로운 전체 제목이 추가되었습니다.\"\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1072,
+    "candidatesTokenCount": 266,
+    "totalTokenCount": 4166,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 556
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 2828,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "nqI-apawJ8m3juMPvOTr4Qk"
+}

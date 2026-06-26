@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"요구된 수정사항이 모두 반영되었으며, 전체 제목 없이 중앙에 '디지털 시민의 판단'을 두고 핵심 원칙들이 방사형으로 잘 구성되었습니다. 하단 문구도 정확히 표시되었고, 한국어 텍스트는 명확하고 정확합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1113,
+    "candidatesTokenCount": 180,
+    "totalTokenCount": 2464,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 597
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1171,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "naM-aqPbCKKw0-kPtbenuQg"
+}

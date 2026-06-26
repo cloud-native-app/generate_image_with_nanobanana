@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"요구사항에 따라 전체 제목이 제거되고, 정상 접근 흐름과 IDOR 공격 차단 흐름이 두 개의 패널로 명확히 구분되었으며, 서버측 인가 엔진의 구성 요소가 정확하게 반영되었습니다. 사용자 구분 및 제목 정책도 잘 준수되었습니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1101,
+    "candidatesTokenCount": 181,
+    "totalTokenCount": 2953,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 585
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1671,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "8aE-apTBAo6v2roP14HQ2AE"
+}

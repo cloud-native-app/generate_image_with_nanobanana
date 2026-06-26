@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"요청된 '전면 재생성' 지침에 따라 P4-F64의 새로운 내용이 정확하게 반영되었으며, 암호분석 공격 개념이 명확하고 한국어 텍스트도 깨끗하게 잘 표현되었습니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1032,
+    "candidatesTokenCount": 172,
+    "totalTokenCount": 2362,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 516
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1158,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "C6M-aqTdA7Xd2roPo-vOwAE"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"TLS 1.3 핸드셰이크 다이어그램이 EncryptedExtensions를 포함하고 ServerHello 이후 핸드셰이크 보호 시작점을 명확히 표시하는 등 요구된 수정사항을 정확히 반영하고 있습니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1048,
+    "candidatesTokenCount": 166,
+    "totalTokenCount": 2539,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 532
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1325,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "VaE-aq-UCc2lvr0Pisy8-QM"
+}

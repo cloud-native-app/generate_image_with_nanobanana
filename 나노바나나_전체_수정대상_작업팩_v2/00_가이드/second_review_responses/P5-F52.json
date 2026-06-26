@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"원본 이미지의 깨진 전체 제목이 삭제되었고, 그림 내부의 오탈자 및 지시문이 수정되어 명확해졌습니다. CCRA 상호인정 구조는 유지되었으며, 모든 정책을 준수합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1020,
+    "candidatesTokenCount": 170,
+    "totalTokenCount": 2244,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 504
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1054,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "p6Y-aoyOPLi22roPotP7sAE"
+}

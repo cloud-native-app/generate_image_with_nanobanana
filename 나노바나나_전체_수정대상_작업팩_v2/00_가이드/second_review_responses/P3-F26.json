@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"FAIL\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": false,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"상단 전체 제목 및 코드는 삭제되었으나, 중복된 빨간색 경고문 중 하나가 삭제되지 않았습니다.\",\n  \"failure_reasons_ko\": [\n    \"요구사항에 따라 중복된 빨간색 경고문(주의: 배너 숨김은 패치·접근통제 대체 불가) 중 하나가 삭제되어야 했으나, 최종 이미지에는 두 개 모두 남아있습니다.\"\n  ],\n  \"observed_issues_ko\": [\n    \"상단 전체 제목 및 코드(P3-F26 웹서버·WAS 하드닝)는 성공적으로 삭제되었습니다.\",\n    \"하단 모니터링/운영 사이클 및 로그 관련 내용이 개선되었습니다.\"\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1037,
+    "candidatesTokenCount": 261,
+    "totalTokenCount": 2842,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 521
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1544,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "yqQ-apaqLLaj9tMP7bWtoAQ"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"FAIL\",\n  \"confidence\": 0.9,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": false,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": false,\n  \"summary_ko\": \"상단 코드와 전체 제목은 삭제되었으나, '토치 처리'라는 용어가 위험 관리 맥락에서 부적절하여 수정이 필요합니다.\",\n  \"failure_reasons_ko\": [\n    \"'토치 처리'라는 용어가 위험 관리 맥락에서 부적절하며, 오탈자 또는 잘못된 용어로 보입니다.\",\n    \"기존 '그림 내부 코드·중복 제목·지시문 또는 국소 오탈자가 남아 있다'는 수정 사항 중 '국소 오탈자'가 해결되지 않았거나 새로운 오탈자가 발생했습니다.\"\n  ],\n  \"observed_issues_ko\": [\n    \"'토치 처리'라는 용어가 위험 관리 맥락에서 부적절합니다.\",\n    \"상단 코드와 전체 제목이 성공적으로 삭제되었습니다.\",\n    \"그림 내부의 지시문이 적절한 내용으로 대체되었습니다.\"\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1011,
+    "candidatesTokenCount": 294,
+    "totalTokenCount": 3436,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 495
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 2131,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "NqY-avTqN7GAg8UP15jUyAc"
+}

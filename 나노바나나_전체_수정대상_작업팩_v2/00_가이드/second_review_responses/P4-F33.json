@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"원본 이미지의 개념 구조, 수치, 화살표 및 한글 손상 문제가 전면 재생성을 통해 성공적으로 해결되었으며, 통합 가이드의 지침이 잘 반영되었습니다. 다이어그램은 개념적으로 정확하고, 텍스트는 명확하며, 제목 정책도 준수되었습니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1032,
+    "candidatesTokenCount": 184,
+    "totalTokenCount": 2838,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 516
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1622,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "1qI-aqOtH8-22roP1t2B0Ag"
+}

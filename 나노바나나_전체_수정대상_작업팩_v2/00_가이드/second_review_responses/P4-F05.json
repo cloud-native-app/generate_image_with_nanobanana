@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"FAIL\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": false,\n  \"title_policy_ok\": false,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"상단 전체 제목 배너가 삭제되지 않아 요구 사항이 충족되지 않았으며, 제목 정책을 위반합니다.\",\n  \"failure_reasons_ko\": [\n    \"상단 전체 제목 배너가 삭제되지 않았습니다.\",\n    \"제목 정책(내부 전체 제목 금지)을 위반하며, 중복 제목이 남아 있습니다.\"\n  ],\n  \"observed_issues_ko\": [\n    \"상단 전체 제목 배너가 삭제되지 않아 중복 제목이 존재합니다.\"\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1015,
+    "candidatesTokenCount": 212,
+    "totalTokenCount": 2291,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 499
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1064,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "T6U-auS5MIWv2roPn9KHuQo"
+}

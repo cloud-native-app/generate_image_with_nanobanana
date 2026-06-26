@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"요청된 수정 사항(전체 제목 제거, 지정된 패널 구성, 정확한 라벨 사용, 깨진 한글 및 긴 경고문 제거)이 모두 반영되었으며, DB 암호화 및 키 관리 개념을 정확하고 명확하게 설명하는 다이어그램입니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1087,
+    "candidatesTokenCount": 181,
+    "totalTokenCount": 2748,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 571
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1480,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "H6I-asr1MKWa1e8P2qnFqQU"
+}

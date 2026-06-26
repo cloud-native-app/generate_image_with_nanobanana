@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"FAIL\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": false,\n  \"title_policy_ok\": false,\n  \"no_internal_code_or_filename\": false,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"상단 전체 제목 '안전한 파일 업로드 파이프라인'이 삭제되지 않아 요구된 수정 사항이 반영되지 않았습니다.\",\n  \"failure_reasons_ko\": [\n    \"상단 전체 제목이 삭제되지 않아 '내부 전체 제목·그림 코드 금지' 정책을 위반했습니다.\",\n    \"요구된 수정 사항(상단 전체 제목 삭제)이 반영되지 않았습니다.\"\n  ],\n  \"observed_issues_ko\": [\n    \"상단에 '안전한 파일 업로드 파이프라인'이라는 전체 제목이 여전히 존재합니다.\"\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1017,
+    "candidatesTokenCount": 233,
+    "totalTokenCount": 2547,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 501
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1297,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "36Q-apq6Ne2x0-kPq-CTsAE"
+}

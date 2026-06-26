@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"FAIL\",\n  \"confidence\": 0.9,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": false,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"상단 제목 및 코드 제거는 잘 반영되었으나, 'Chain of Custody' 번역이 '관리n of Custody'로 부자연스럽게 되어 수정이 필요합니다.\",\n  \"failure_reasons_ko\": [\n    \"핵심 용어인 'Chain of Custody'가 '관리n of Custody'로 번역되어 어색하며, '관리의 연속성' 또는 '관리 체인' 등으로 수정이 필요합니다.\"\n  ],\n  \"observed_issues_ko\": [\n    \"'Chain of Custody' 번역 오류\"\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1017,
+    "candidatesTokenCount": 226,
+    "totalTokenCount": 3044,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 501
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1801,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "MqU-apn6M7GTvr0P2uzawQg"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"요구된 수정사항(전체 제목 없음, 컬럼 구성, 핵심 위험/보호/프라이버시 라벨, 허용 영문 사용, 깨진 영문 제거)이 모두 반영되었으며, 다이어그램의 개념적 정확성, 가독성, 레이아웃 모두 우수합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1104,
+    "candidatesTokenCount": 187,
+    "totalTokenCount": 2896,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 588
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1605,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "N6I-aoGVI_Ki2roPsvGUmAM"
+}

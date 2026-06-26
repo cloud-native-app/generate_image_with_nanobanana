@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"요구된 수정사항이 모두 반영되었으며, 전자화폐 은닉서명 개념을 정확하고 명확하게 표현하고 있습니다. 상단 제목과 그림 코드가 제거되었고, 단계별 흐름이 간결하게 잘 정리되었습니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1101,
+    "candidatesTokenCount": 172,
+    "totalTokenCount": 2630,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 585
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1357,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "WaI-apaIF6PYg8UPirTUmQY"
+}

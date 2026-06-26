@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"FAIL\",\n  \"confidence\": 0.9,\n  \"required_correction_met\": false,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": false,\n  \"summary_ko\": \"TCP 25 서버 간 릴레이 부분에서 EHLO/HELO 응답 방향이 잘못되어 개념적 오류가 있습니다. 그 외 포트 역할 분리 및 587/465 포트의 명령/응답 방향은 올바르게 수정되었습니다.\",\n  \"failure_reasons_ko\": [\n    \"TCP 25 (서버 간 릴레이)에서 서버가 EHLO/HELO로 응답하는 것으로 표시되어 있으며, 이는 SMTP 프로토콜의 개념적 오류입니다. 서버는 250 코드로 응답해야 합니다.\"\n  ],\n  \"observed_issues_ko\": [\n    \"TCP 25 (서버 간 릴레이)에서 송신 서버(클라이언트 역할)가 EHLO/HELO를 보내면 수신 서버(서버 역할)는 250 코드로 응답해야 하나, 그림에서는 수신 서버가 EHLO/HELO를 보내는 것으로 표시되어 있습니다.\"\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1084,
+    "candidatesTokenCount": 313,
+    "totalTokenCount": 4774,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 568
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 3377,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "oaE-aqiXLr7Yvr0P88vwqQg"
+}

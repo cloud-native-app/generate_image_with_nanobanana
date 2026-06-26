@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"상단 전체 영어 제목이 제거되었고, UNIX/Linux 권한 구조, 8진수 계산, 파일/디렉터리 권한 의미가 모두 정확하고 명확하게 한국어로 정리되었습니다. 모든 요구사항이 충족되었습니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1149,
+    "candidatesTokenCount": 172,
+    "totalTokenCount": 2536,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 633
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1215,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "AKQ-asq-HuCdrfcP4oXKkQI"
+}

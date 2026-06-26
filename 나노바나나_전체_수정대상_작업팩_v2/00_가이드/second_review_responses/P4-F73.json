@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"제공된 통합 가이드의 상세 지침과 허용 텍스트를 적용하여 다이어그램이 전면 재생성되었으며, 개념 구조, 텍스트, 레이아웃 모두 정확하고 명확하게 반영되었습니다. 제목 정책도 잘 준수되었습니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1036,
+    "candidatesTokenCount": 177,
+    "totalTokenCount": 2709,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 520
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1496,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "I6M-apmoG4ygvr0Pqb7R4AQ"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"FAIL\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": false,\n  \"title_policy_ok\": false,\n  \"no_internal_code_or_filename\": false,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"상단 전체 제목 삭제 요구사항이 반영되지 않아 제목이 여전히 남아있습니다.\",\n  \"failure_reasons_ko\": [\n    \"상단 전체 제목이 삭제되지 않았습니다.\",\n    \"제목 정책(내부 전체 제목 금지)이 지켜지지 않았습니다.\"\n  ],\n  \"observed_issues_ko\": [\n    \"상단 전체 제목이 삭제되지 않고 그대로 남아있습니다.\"\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1016,
+    "candidatesTokenCount": 194,
+    "totalTokenCount": 2509,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 500
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1299,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "z6Y-au2IC5nQ0-kP0cOjqAE"
+}

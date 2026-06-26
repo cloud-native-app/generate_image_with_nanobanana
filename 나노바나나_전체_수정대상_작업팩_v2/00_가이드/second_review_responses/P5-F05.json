@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"요구사항에 따라 상단 제목 없이 정보보호 인증 교재 활용 사례의 RACI 매트릭스로 전면 재생성되었으며, 지정된 열과 행, RACI 색상 라벨 및 업무별 A 1명 원칙이 모두 정확하게 반영되었습니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1123,
+    "candidatesTokenCount": 179,
+    "totalTokenCount": 2711,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 607
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1409,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "SKM-auGeLLO22roPtve4oAQ"
+}
