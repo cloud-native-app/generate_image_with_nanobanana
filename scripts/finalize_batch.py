@@ -59,8 +59,9 @@ def font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont:
 def text_center(draw: ImageDraw.ImageDraw, xy: tuple[int, int, int, int], text: str) -> None:
     x1, y1, x2, y2 = xy
     fnt = font(17, True)
-    if len(text) > 28:
-        text = text[:27] + "..."
+    max_width = x2 - x1 - 12
+    while draw.textbbox((0, 0), text, font=fnt)[2] > max_width and len(text) > 4:
+        text = text[:-4].rstrip() + "..."
     box = draw.textbbox((0, 0), text, font=fnt)
     tw, th = box[2] - box[0], box[3] - box[1]
     draw.text((x1 + (x2 - x1 - tw) / 2, y1 + (y2 - y1 - th) / 2), text, font=fnt, fill="#102A43")
