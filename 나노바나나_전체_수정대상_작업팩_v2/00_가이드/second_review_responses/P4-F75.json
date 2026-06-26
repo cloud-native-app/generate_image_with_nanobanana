@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"상단 코드와 전체 제목이 삭제되고 '시컴 포인트'가 '시험 포인트'로 올바르게 교체되었습니다. 다이어그램의 개념적 정확성, 한국어 텍스트 가독성, 레이아웃 모두 양호합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"상단 코드와 전체 제목이 삭제되었고, '시컴 포인트'가 '시험 포인트'로 올바르게 수정되었습니다. 다이어그램의 개념적 정확성, 텍스트 가독성, 레이아웃 모두 양호합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
           }
         ],
         "role": "model"
@@ -15,8 +15,8 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 1033,
-    "candidatesTokenCount": 173,
-    "totalTokenCount": 2550,
+    "candidatesTokenCount": 172,
+    "totalTokenCount": 1929,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
@@ -27,9 +27,9 @@
         "tokenCount": 516
       }
     ],
-    "thoughtsTokenCount": 1344,
+    "thoughtsTokenCount": 724,
     "serviceTier": "standard"
   },
   "modelVersion": "gemini-2.5-flash",
-  "responseId": "dKQ-asy9LrOb1e8P5-aAgAU"
+  "responseId": "s8U-aqytBZOq0-kPrJ6J0AE"
 }

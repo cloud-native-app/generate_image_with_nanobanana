@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"상단 코드와 전체 제목이 삭제되고 참조 주제로 대체되어 요구된 수정 사항이 잘 반영되었으며, 다이어그램의 내용과 레이아웃, 한국어 텍스트 모두 적절합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"상단 코드와 전체 제목이 성공적으로 삭제되었으며, 그림 내부의 오탈자도 수정되어 모든 요구사항을 충족합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
           }
         ],
         "role": "model"
@@ -15,8 +15,8 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 1014,
-    "candidatesTokenCount": 164,
-    "totalTokenCount": 1971,
+    "candidatesTokenCount": 150,
+    "totalTokenCount": 2160,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
@@ -27,9 +27,9 @@
         "tokenCount": 516
       }
     ],
-    "thoughtsTokenCount": 793,
+    "thoughtsTokenCount": 996,
     "serviceTier": "standard"
   },
   "modelVersion": "gemini-2.5-flash",
-  "responseId": "R6Y-arDtJ52i9tMP-ebn4Qc"
+  "responseId": "xMU-at2FN6fOrfcPt8-n2AI"
 }
