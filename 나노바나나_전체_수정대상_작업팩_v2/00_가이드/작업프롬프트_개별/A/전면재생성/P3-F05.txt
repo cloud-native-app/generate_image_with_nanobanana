@@ -1,0 +1,33 @@
+﻿[A] P3-F05 · FTP 명령과 응답 코드 흐름 · 전면 재생성
+
+input_abs: C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\01_전면재생성\Part3\P3-F05.png
+output_abs: C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part3\P3-F05.png
+canvas: 1800 x 1004 px
+output_filename: P3-F05.png
+title_policy: 내부 전체 제목·그림 코드 금지
+
+문제:
+FTP 명령·응답 화살표 방향과 전송 완료 응답 위치가 틀렸다.
+
+필수 수정:
+USER/PASS/PWD/CWD/LIST/RETR/STOR/QUIT는 C→S, 응답은 S→C. LIST/RETR/STOR의 별도 데이터 연결과 1xx preliminary, 226 final completion을 분리.
+
+통합 가이드 세부 지침:
+- USER/PASS/PWD/CWD/LIST/RETR/STOR/QUIT는 Client→Server.
+- 응답은 Server→Client. `1xx=preliminary`, `2xx=success`, `3xx=additional input`, `4xx=temporary failure`, `5xx=permanent failure`.
+- LIST/RETR/STOR가 별도 데이터 연결을 만들고, 전송 뒤 `226 Transfer complete` 같은 최종 2xx를 보낸다.
+
+기본 프롬프트:
+정보보안기사 시험 대비용 한국어 교육 도식이다.
+원본의 학습 목적만 유지하고, 아래에 지정한 정확한 구조와 허용 텍스트로 새로 그린다.
+흰 배경, 네이비·틸·밝은 회색 중심, 위험·오류만 빨강, 단순한 벡터 스타일.
+화살표는 실제 데이터·제어 흐름에만 사용하고 방향을 정확히 맞춘다.
+허용 텍스트 외의 문구, 워터마크, 프롬프트 문장, 파일명, 가짜 수식, 의미 없는 약어를 넣지 않는다.
+출력 크기와 제목 정책은 해당 코드의 매니페스트를 따른다.
+
+공통 네거티브:
+no watermark, no prompt text, no placeholder text, no pseudo-Korean,
+no misspelled Korean, no duplicate labels, no invented formula,
+no tiny text, no decorative arrows, no gradient background,
+no photorealistic style, no file name, no version string
+

@@ -1,0 +1,37 @@
+﻿[A] P3-F11 · MIME 메시지 구조 · 전면 재생성
+
+input_abs: C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\01_전면재생성\Part3\P3-F11.png
+output_abs: C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part3\P3-F11.png
+canvas: 1800 x 1004 px
+output_filename: P3-F11.png
+title_policy: 내부 전체 제목·그림 코드 금지
+
+문제:
+MIME 헤더·본문·첨부 예시가 광범위하게 깨져 구조를 신뢰할 수 없다.
+
+필수 수정:
+정상 MIME 예시로 재작성: MIME-Version, multipart/mixed boundary, text/plain UTF-8, application/pdf attachment, Content-Disposition, Base64. `Base64는 암호화가 아님` 표시.
+
+통합 가이드 세부 지침:
+정상 예시만 사용한다.
+
+- `MIME-Version: 1.0`
+- `Content-Type: multipart/mixed; boundary="..."`
+- 첫 파트: `text/plain; charset=UTF-8`
+- 첨부: `application/pdf`, `Content-Disposition: attachment; filename="report.pdf"`, `Content-Transfer-Encoding: base64`
+- 하단: `Base64는 인코딩이며 암호화가 아니다`, `확장자·MIME만 믿지 말고 실제 내용 검사`
+
+기본 프롬프트:
+정보보안기사 시험 대비용 한국어 교육 도식이다.
+원본의 학습 목적만 유지하고, 아래에 지정한 정확한 구조와 허용 텍스트로 새로 그린다.
+흰 배경, 네이비·틸·밝은 회색 중심, 위험·오류만 빨강, 단순한 벡터 스타일.
+화살표는 실제 데이터·제어 흐름에만 사용하고 방향을 정확히 맞춘다.
+허용 텍스트 외의 문구, 워터마크, 프롬프트 문장, 파일명, 가짜 수식, 의미 없는 약어를 넣지 않는다.
+출력 크기와 제목 정책은 해당 코드의 매니페스트를 따른다.
+
+공통 네거티브:
+no watermark, no prompt text, no placeholder text, no pseudo-Korean,
+no misspelled Korean, no duplicate labels, no invented formula,
+no tiny text, no decorative arrows, no gradient background,
+no photorealistic style, no file name, no version string
+

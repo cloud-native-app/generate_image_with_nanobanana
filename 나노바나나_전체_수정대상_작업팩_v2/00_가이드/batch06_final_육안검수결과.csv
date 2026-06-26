@@ -1,0 +1,11 @@
+﻿batch,code,visual_status,reason,current_location
+06-final,P5-F26,통과,"물리보안 구역, 인증요건, 출입기록, 반입·반출 통제와 Tailgating 방지가 명확함. 전체 제목·코드 없음.",C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part5\P5-F26.png
+06-final,P5-F41,통과,레지스터·캐시부터 원격 로그·백업까지 휘발성 우선순위가 명확하고 수집 영향 판단 기준이 적절함.,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part5\P5-F41.png
+06-final,P5-F42,통과,디지털 증거 식별-보존-수집-검사-분석-보고-보관/폐기 생명주기와 무결성 관리가 명확함.,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part5\P5-F42.png
+06-final,P5-F46,통과,"ISMS-P 3개 영역과 16·64·21, 총 101개 기준이 정확하고 상단 전체 제목·오탈자 없음.",C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part5\P5-F46.png
+06-final,P5-F49,통과,"CC 인증에서 PP, ST, TOE, SFR/SAR, EAL과 평가·인증 흐름이 명확함.",C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part5\P5-F49.png
+06-final,P5-F53,통과,"조직 인증과 제품 인증의 범위, 평가대상, 인증근거 차이가 명확하고 시험 강조 문구 없음.",C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part5\P5-F53.png
+06-final,P5-F54,통과,디지털 시민의 책임·존중·공정·안전·프라이버시·지식재산 원칙과 윤리 판단 문구가 정확함.,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part5\P5-F54.png
+06-final,P5-F55,통과,"게시 전 점검, 게시, 타인 확산, 문제 발생 시 대응과 익명성 책임 문구가 정확함.",C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part5\P5-F55.png
+06-final,P5-F64,통과,국내 정보보호 관련 법률별 보호대상과 목적 차이가 정확하며 영어 오탈자·전체 제목 없음.,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part5\P5-F64.png
+06-final,P5-F68,통과,"위원회, 관계 중앙행정기관, 관리기관, 전문기관의 역할과 지침·지원 흐름이 명확함. 그림 코드 없음.",C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part5\P5-F68.png

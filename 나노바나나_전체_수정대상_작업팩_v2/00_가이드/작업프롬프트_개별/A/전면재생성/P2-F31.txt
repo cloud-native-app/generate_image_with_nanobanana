@@ -1,0 +1,38 @@
+﻿[A] P2-F31 · WEP에서 WPA3까지 무선 보안 발전 · 전면 재생성
+
+input_abs: C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\01_전면재생성\Part2\P2-F31.png
+output_abs: C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part2\P2-F31.png
+canvas: 1600 x 850 px
+output_filename: P2-F31.png
+title_policy: 내부 전체 제목·그림 코드 금지
+
+문제:
+WPA 계열의 개인용·기업용 인증, 키 관리, 데이터 보호가 혼재하고 SAE 적용 범위가 잘못 읽힌다.
+
+필수 수정:
+WEP/WPA/WPA2/WPA3를 개인용 인증·기업용 인증·데이터 보호·현재 판단으로 분리. SAE=WPA3-Personal, Enterprise=802.1X/EAP, WPA3 PMF 필수.
+
+통합 가이드 세부 지침:
+| 방식 | 개인용 인증 | 기업용 인증 | 데이터 보호 | 판단 |
+|---|---|---|---|---|
+| WEP | 공유키 | 해당 없음 | RC4·짧은 IV | 폐기 |
+| WPA | PSK | 802.1X/EAP | TKIP/RC4 | 레거시 |
+| WPA2 | PSK | 802.1X/EAP | AES-CCMP | 강한 설정 필요 |
+| WPA3 | SAE | 802.1X/EAP | 강화된 AES 계열·PMF 필수 | 권장 |
+
+SAE를 Enterprise에 연결하지 않고, 4-way handshake를 WPA2만의 고유 키관리처럼 표현하지 않는다.
+
+기본 프롬프트:
+정보보안기사 시험 대비용 한국어 교육 도식이다.
+원본의 학습 목적만 유지하고, 아래에 지정한 정확한 구조와 허용 텍스트로 새로 그린다.
+흰 배경, 네이비·틸·밝은 회색 중심, 위험·오류만 빨강, 단순한 벡터 스타일.
+화살표는 실제 데이터·제어 흐름에만 사용하고 방향을 정확히 맞춘다.
+허용 텍스트 외의 문구, 워터마크, 프롬프트 문장, 파일명, 가짜 수식, 의미 없는 약어를 넣지 않는다.
+출력 크기와 제목 정책은 해당 코드의 매니페스트를 따른다.
+
+공통 네거티브:
+no watermark, no prompt text, no placeholder text, no pseudo-Korean,
+no misspelled Korean, no duplicate labels, no invented formula,
+no tiny text, no decorative arrows, no gradient background,
+no photorealistic style, no file name, no version string
+

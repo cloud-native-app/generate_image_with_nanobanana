@@ -1,0 +1,11 @@
+﻿batch,code,visual_status,reason,current_location
+02,P2-F62,통과,SSH 순서와 제목 정책 양호. 2차 검수 대기.,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part2\P2-F62.png
+02,P2-F65,재작업,Part2 제목 정책 위반: 내부 전체 제목이 남아 있음.,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\04_재작업\Part2\P2-F65.png
+02,P3-F04,재작업,Part3 제목 정책 위반: 내부 전체 제목이 큼. Active/Passive 일부 표현도 재확인 필요.,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\04_재작업\Part3\P3-F04.png
+02,P3-F05,재작업,Part3 제목 정책 위반: 영어 내부 전체 제목이 남아 있음.,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\04_재작업\Part3\P3-F05.png
+02,P3-F09,재작업,Part3 제목 정책 위반: 내부 전체 제목이 남아 있음.,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\04_재작업\Part3\P3-F09.png
+02,P3-F11,통과,MIME 구조와 Base64 주석 양호. 2차 검수 대기.,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part3\P3-F11.png
+02,P3-F12,재작업,Part3 제목 정책 위반 및 Step/설명 텍스트 중복·오류 가능.,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\04_재작업\Part3\P3-F12.png
+02,P3-F14,통과,DKIM 흐름과 기능성 패널 제목 양호. 2차 검수 대기.,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part3\P3-F14.png
+02,P3-F15,재작업,"Part3 제목 정책 위반, 정책/보고 패널에 부정확하거나 깨진 문구가 보임.",C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\04_재작업\Part3\P3-F15.png
+02,P3-F19,재작업,Part3 제목 정책 위반: 내부 전체 제목이 남아 있음.,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\04_재작업\Part3\P3-F19.png

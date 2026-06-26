@@ -1,0 +1,33 @@
+﻿[A] P2-F51 · 방화벽·DMZ 구축 유형 · 전면 재생성
+
+input_abs: C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\01_전면재생성\Part2\P2-F51.png
+output_abs: C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part2\P2-F51.png
+canvas: 1600 x 850 px
+output_filename: P2-F51.png
+title_policy: 내부 전체 제목·그림 코드 금지
+
+문제:
+Dual-Homed·Screened Host·Screened Subnet의 배치 구조가 표준 개념과 다르다.
+
+필수 수정:
+Dual-Homed Host=두 NIC Bastion/Proxy, Screened Host=Screening Router+내부측 Bastion, Screened Subnet=두 필터링 지점이 DMZ 생성으로 재구성.
+
+통합 가이드 세부 지침:
+- `Dual-Homed Host`: 두 NIC를 가진 Bastion/Proxy가 외부와 내부 사이에 위치, 직접 라우팅 제한.
+- `Screened Host`: Screening Router 뒤 내부측 Bastion Host, 외부 접근은 Bastion으로 제한.
+- `Screened Subnet`: 두 필터링 지점 또는 3-leg 방화벽이 DMZ를 만들고 공개 서버를 DMZ에 배치.
+
+기본 프롬프트:
+정보보안기사 시험 대비용 한국어 교육 도식이다.
+원본의 학습 목적만 유지하고, 아래에 지정한 정확한 구조와 허용 텍스트로 새로 그린다.
+흰 배경, 네이비·틸·밝은 회색 중심, 위험·오류만 빨강, 단순한 벡터 스타일.
+화살표는 실제 데이터·제어 흐름에만 사용하고 방향을 정확히 맞춘다.
+허용 텍스트 외의 문구, 워터마크, 프롬프트 문장, 파일명, 가짜 수식, 의미 없는 약어를 넣지 않는다.
+출력 크기와 제목 정책은 해당 코드의 매니페스트를 따른다.
+
+공통 네거티브:
+no watermark, no prompt text, no placeholder text, no pseudo-Korean,
+no misspelled Korean, no duplicate labels, no invented formula,
+no tiny text, no decorative arrows, no gradient background,
+no photorealistic style, no file name, no version string
+

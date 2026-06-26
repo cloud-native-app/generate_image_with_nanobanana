@@ -1,0 +1,30 @@
+﻿[C] P1-F42 · 파일·명령 실행 취약점 비교 · 부분 수정
+
+input_abs: C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\02_부분수정\Part1\P1-F42.png
+output_abs: C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part1\P1-F42.png
+canvas: 2048 x 1136 px
+output_filename: P1-F42.png
+title_policy: 내부 전체 제목 1개 유지, 그림 코드 금지
+
+문제:
+기술적으로는 대체로 맞지만 영문 소형문자가 많아 한국어 교재의 본문 크기에서 가독성이 낮다.
+
+필수 수정:
+구조는 유지하고 작은 영문 핵심 라벨을 `경로 조작`, `파일 포함(LFI/RFI)`, `파일 업로드`, `명령어 삽입`, `허용목록`, `기준 경로`, `비실행 저장`, `셸 호출 회피` 등으로 한국어화. 우선순위 C.
+
+통합 가이드 세부 지침: CSV required_correction을 따른다.
+
+기본 프롬프트:
+마스킹하지 않은 픽셀, 구도, 아이콘, 선, 화살표, 색상, 여백, 정확한 문구를 그대로 유지한다.
+마스킹 영역의 코드·중복 제목·오탈자·잘못된 짧은 라벨만 삭제하거나 지정 문자열로 교체한다.
+삭제 영역은 원래 흰 배경과 기존 테두리를 자연스럽게 복원한다.
+새 제목, 새 코드, 워터마크, 생성 지시문, 설명문을 추가하지 않는다.
+마스킹 영역 밖은 변경하지 않는다.
+원본 픽셀 크기를 유지한다.
+
+공통 네거티브:
+no watermark, no prompt text, no placeholder text, no pseudo-Korean,
+no misspelled Korean, no duplicate labels, no invented formula,
+no tiny text, no decorative arrows, no gradient background,
+no photorealistic style, no file name, no version string
+

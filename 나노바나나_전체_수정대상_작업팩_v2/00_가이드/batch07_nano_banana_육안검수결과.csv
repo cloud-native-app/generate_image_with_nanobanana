@@ -1,0 +1,11 @@
+﻿batch,code,visual_status,reason,current_location
+07,P5-F73,재작업,전자서명법 개정 전후 구조는 좋지만 하단에 시험 문제 언급이 남아 있음. 시험 문구 없이 현재 제도와 과거 용어 구분만 표시해야 함.,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\04_재작업\Part5\P5-F73.png
+07,P5-F74,통과,"개인정보보호법 처리 원칙, 생명주기, 정보주체 권리, 처리자 의무와 침해 대응 흐름이 명확함.",C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part5\P5-F74.png
+07,P5-F77,통과,"개인정보 처리 단계와 적법 근거, 제3자 제공, 보관·파기, 안전조치 공통 준수사항이 명확함.",C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part5\P5-F77.png
+07,P5-F83,재작업,상단 시험 대비 제목이 있고 Privacy Policy 항목에 어색한 오탈자가 많음. 처리방침 필수 항목과 실제 처리 일치 원칙만 표시해야 함.,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\04_재작업\Part5\P5-F83.png
+07,P1-F24,재작업,"상단 전체 영어 제목이 남아 있음. UNIX/Linux 권한 구조와 750 계산, 파일/디렉터리 권한 의미를 제목 없이 정리해야 함.",C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\04_재작업\Part1\P1-F24.png
+07,P1-F30,재작업,상단 전체 제목이 남아 있고 이벤트 상관분석 흐름이 희박함. 사용자·호스트·네트워크 이벤트를 시간순으로 연결해 침해 흐름을 보여야 함.,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\04_재작업\Part1\P1-F30.png
+07,P2-F14,통과,"CIDR/VLSM에서 큰 요구부터 /25, /26, /27을 배정하고 네트워크·브로드캐스트 제외 및 중첩 금지가 명확함.",C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part2\P2-F14.png
+07,P2-F18,통과,"IPv6 NDP 기능과 Dual Stack, Tunneling, NAT64/DNS64 전환 방식이 명확함.",C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part2\P2-F18.png
+07,P2-F21,통과,"ICMP 주요 메시지, IGMP 멀티캐스트 그룹 관리, Unicast/Broadcast/Multicast/Anycast 전송 범위가 명확함.",C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part2\P2-F21.png
+07,P2-F33,통과,"무선 공격 유형과 PMF, WIDS/WIPS, 패치, WPA2/WPA3, 802.1X 대응 관계가 명확함.",C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part2\P2-F33.png

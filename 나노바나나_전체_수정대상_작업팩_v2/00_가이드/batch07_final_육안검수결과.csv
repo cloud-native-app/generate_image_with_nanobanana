@@ -1,0 +1,11 @@
+﻿batch,code,visual_status,reason,current_location
+07-final,P5-F73,통과,"전자서명법 개정 전후, 전자서명인증사업자, 평가·인정, 동등한 법적 효력과 과거/현행 용어 구분이 명확함.",C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part5\P5-F73.png
+07-final,P5-F74,통과,"개인정보보호법 처리 원칙, 생명주기, 정보주체 권리, 처리자 의무와 침해 대응 흐름이 명확함.",C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part5\P5-F74.png
+07-final,P5-F77,통과,"개인정보 처리 단계와 적법 근거, 제3자 제공, 보관·파기, 안전조치 공통 준수사항이 명확함.",C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part5\P5-F77.png
+07-final,P5-F83,통과,"개인정보 처리방침 필수 기재 항목과 실제 처리 일치 확인, 동의 대체 금지 문구가 정확함.",C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part5\P5-F83.png
+07-final,P1-F24,통과,"UNIX/Linux 권한 문자열, 750 계산, 파일/디렉터리 권한 의미가 정확하고 전체 제목 없음.",C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part1\P1-F24.png
+07-final,P1-F30,통과,사용자·Host A·Host B·네트워크 이벤트를 시간순으로 연결해 계정 침해부터 정보 유출까지 흐름이 명확함.,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part1\P1-F30.png
+07-final,P2-F14,통과,"CIDR/VLSM에서 큰 요구부터 /25, /26, /27을 배정하고 네트워크·브로드캐스트 제외 및 중첩 금지가 명확함.",C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part2\P2-F14.png
+07-final,P2-F18,통과,"IPv6 NDP 기능과 Dual Stack, Tunneling, NAT64/DNS64 전환 방식이 명확함.",C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part2\P2-F18.png
+07-final,P2-F21,통과,"ICMP 주요 메시지, IGMP 멀티캐스트 그룹 관리, Unicast/Broadcast/Multicast/Anycast 전송 범위가 명확함.",C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part2\P2-F21.png
+07-final,P2-F33,통과,"무선 공격 유형과 PMF, WIDS/WIPS, 패치, WPA2/WPA3, 802.1X 대응 관계가 명확함.",C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part2\P2-F33.png

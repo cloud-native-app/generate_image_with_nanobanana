@@ -1,0 +1,45 @@
+﻿[A] P4-F73 · 비밀번호 Salt·Pepper·KDF 저장 구조 · 전면 재생성
+
+input_abs: C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\01_전면재생성\Part4\P4-F73.png
+output_abs: C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part4\P4-F73.png
+canvas: 1600 x 893 px
+output_filename: P4-F73.png
+title_policy: 내부 전체 제목·그림 코드 금지
+
+문제:
+개념 구조·수치·화살표 또는 한글 손상이 있어 전면 재생성이 필요하다.
+
+필수 수정:
+통합 가이드의 `P4-F73` 상세 지침과 허용 텍스트를 그대로 적용.
+
+통합 가이드 세부 지침:
+문제
+
+- Pepper 유출 경로에서 방어가 강화되는 것처럼 표현되어 논리적으로 반대다.
+
+정확한 구조
+
+- `비밀번호 + 사용자별 Salt → 느린 Password KDF → 검증자 저장`
+- Salt는 사용자별 고유값이며 DB에 함께 저장 가능
+- Pepper는 선택 사항이며 `KMS/HSM` 등 DB와 분리된 영역에 보관
+- DB만 유출되면 공격자는 KDF 비용과 미지의 Pepper를 모두 상대해야 함
+- Pepper까지 유출되면 Pepper가 주던 추가 방어층은 사라짐
+
+허용 텍스트
+
+`비밀번호`, `Salt`, `Password KDF`, `Argon2id`, `scrypt`, `bcrypt`, `PBKDF2`, `검증자`, `Pepper`, `KMS/HSM`, `DB와 분리`, `Pepper 유출 시 추가 방어 상실`
+
+기본 프롬프트:
+정보보안기사 시험 대비용 한국어 교육 도식이다.
+원본의 학습 목적만 유지하고, 아래에 지정한 정확한 구조와 허용 텍스트로 새로 그린다.
+흰 배경, 네이비·틸·밝은 회색 중심, 위험·오류만 빨강, 단순한 벡터 스타일.
+화살표는 실제 데이터·제어 흐름에만 사용하고 방향을 정확히 맞춘다.
+허용 텍스트 외의 문구, 워터마크, 프롬프트 문장, 파일명, 가짜 수식, 의미 없는 약어를 넣지 않는다.
+출력 크기와 제목 정책은 해당 코드의 매니페스트를 따른다.
+
+공통 네거티브:
+no watermark, no prompt text, no placeholder text, no pseudo-Korean,
+no misspelled Korean, no duplicate labels, no invented formula,
+no tiny text, no decorative arrows, no gradient background,
+no photorealistic style, no file name, no version string
+

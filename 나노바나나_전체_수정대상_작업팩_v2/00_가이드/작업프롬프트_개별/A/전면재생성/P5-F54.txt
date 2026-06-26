@@ -1,0 +1,41 @@
+﻿[A] P5-F54 · 사이버 윤리 전체 지도 · 전면 재생성
+
+input_abs: C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\01_전면재생성\Part5\P5-F54.png
+output_abs: C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part5\P5-F54.png
+canvas: 1600 x 893 px
+output_filename: P5-F54.png
+title_policy: 내부 전체 제목·그림 코드 금지
+
+문제:
+개념 구조·수치·화살표 또는 한글 손상이 있어 전면 재생성이 필요하다.
+
+필수 수정:
+통합 가이드의 `P5-F54` 상세 지침과 허용 텍스트를 그대로 적용.
+
+통합 가이드 세부 지침:
+문제
+
+- 제목이 “사이버 윤회”로 깨지고 윤리 축이 중복·누락되어 있다.
+
+정확한 6개 축
+
+`책임`, `존중`, `공정`, `안전`, `프라이버시`, `지식재산`
+
+중앙: `디지털 시민의 판단`
+
+하단: `합법이라고 항상 윤리적인 것은 아니며, 표현의 자유와 타인의 권리를 함께 고려한다.`
+
+기본 프롬프트:
+정보보안기사 시험 대비용 한국어 교육 도식이다.
+원본의 학습 목적만 유지하고, 아래에 지정한 정확한 구조와 허용 텍스트로 새로 그린다.
+흰 배경, 네이비·틸·밝은 회색 중심, 위험·오류만 빨강, 단순한 벡터 스타일.
+화살표는 실제 데이터·제어 흐름에만 사용하고 방향을 정확히 맞춘다.
+허용 텍스트 외의 문구, 워터마크, 프롬프트 문장, 파일명, 가짜 수식, 의미 없는 약어를 넣지 않는다.
+출력 크기와 제목 정책은 해당 코드의 매니페스트를 따른다.
+
+공통 네거티브:
+no watermark, no prompt text, no placeholder text, no pseudo-Korean,
+no misspelled Korean, no duplicate labels, no invented formula,
+no tiny text, no decorative arrows, no gradient background,
+no photorealistic style, no file name, no version string
+

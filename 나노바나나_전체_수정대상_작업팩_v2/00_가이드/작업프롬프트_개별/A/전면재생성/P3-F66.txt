@@ -1,0 +1,31 @@
+﻿[A] P3-F66 · Secure SDLC 보안활동 · 전면 재생성
+
+input_abs: C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\01_전면재생성\Part3\P3-F66.png
+output_abs: C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part3\P3-F66.png
+canvas: 1800 x 1004 px
+output_filename: P3-F66.png
+title_policy: 내부 전체 제목·그림 코드 금지
+
+문제:
+Secure SDLC 단계 순서가 틀리고 Build 단계에 폐기·삭제가 배치되어 있다.
+
+필수 수정:
+Plan/Requirements→Design/Threat Modeling→Implement/Secure Coding→Build/SBOM·무결성→Test→Deploy→Operate→Retire/데이터 삭제·키 폐기 순서로 재구성.
+
+통합 가이드 세부 지침:
+`Plan/Requirements → Design/Threat Modeling → Implement/Secure Coding → Build/SBOM·Artifact Integrity → Test(SAST/DAST/SCA/Fuzz) → Deploy/Config·Secrets → Operate/Monitor·Patch·IR → Retire/Data Deletion·Key Revocation`
+
+기본 프롬프트:
+정보보안기사 시험 대비용 한국어 교육 도식이다.
+원본의 학습 목적만 유지하고, 아래에 지정한 정확한 구조와 허용 텍스트로 새로 그린다.
+흰 배경, 네이비·틸·밝은 회색 중심, 위험·오류만 빨강, 단순한 벡터 스타일.
+화살표는 실제 데이터·제어 흐름에만 사용하고 방향을 정확히 맞춘다.
+허용 텍스트 외의 문구, 워터마크, 프롬프트 문장, 파일명, 가짜 수식, 의미 없는 약어를 넣지 않는다.
+출력 크기와 제목 정책은 해당 코드의 매니페스트를 따른다.
+
+공통 네거티브:
+no watermark, no prompt text, no placeholder text, no pseudo-Korean,
+no misspelled Korean, no duplicate labels, no invented formula,
+no tiny text, no decorative arrows, no gradient background,
+no photorealistic style, no file name, no version string
+

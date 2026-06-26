@@ -1,0 +1,8 @@
+﻿"batch","code","visual_status","reason","current_location"
+"02-rerun","P2-F65","통과","IKEv2 협상/VPN 유형 기능성 패널 제목만 유지. 전체 제목·코드 없음.","C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part2\P2-F65.png"
+"02-rerun","P3-F04","통과","Active/Passive 기능성 패널 제목만 유지. 전체 제목·코드 없음.","C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part3\P3-F04.png"
+"02-rerun","P3-F05","통과","FTP 명령/응답 흐름과 응답 코드 표 구성 양호. 전체 제목·코드 없음.","C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part3\P3-F05.png"
+"02-rerun","P3-F09","통과","SMTP 대화/포트 흐름 양호. 전체 제목·코드 없음.","C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part3\P3-F09.png"
+"02-rerun","P3-F12","통과","Received 헤더 추적·Authentication-Results 판정 흐름 보정본 통과. 전체 제목·코드 없음.","C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part3\P3-F12.png"
+"02-rerun","P3-F15","통과","SPF/DKIM 정렬 조건과 DMARC PASS/FAIL 정책 흐름 통과. 전체 제목·코드 없음.","C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part3\P3-F15.png"
+"02-rerun","P3-F19","통과","URL 구성요소와 HTTP 요청/응답 구성 양호. 전체 제목·코드 없음.","C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part3\P3-F19.png"

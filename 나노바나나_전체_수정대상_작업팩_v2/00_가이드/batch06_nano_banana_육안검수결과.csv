@@ -1,0 +1,11 @@
+﻿batch,code,visual_status,reason,current_location
+06,P5-F26,통과,"물리보안 구역, 인증요건, 출입기록, 반입·반출 통제와 Tailgating 방지가 명확함. 전체 제목·코드 없음.",C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part5\P5-F26.png
+06,P5-F41,통과,레지스터·캐시부터 원격 로그·백업까지 휘발성 우선순위가 명확하고 수집 영향 판단 기준이 적절함.,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part5\P5-F41.png
+06,P5-F42,통과,디지털 증거 식별-보존-수집-검사-분석-보고-보관/폐기 생명주기와 무결성 관리가 명확함.,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part5\P5-F42.png
+06,P5-F46,재작업,상단 전체 제목이 남아 있고 '인증도애'처럼 어색한 문구가 있음. 3개 영역·101개 기준 구조만 제목 없이 표시 필요.,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\04_재작업\Part5\P5-F46.png
+06,P5-F49,통과,"CC 인증에서 PP, ST, TOE, SFR/SAR, EAL과 평가·인증 흐름이 명확하고 개념 오류가 크지 않음.",C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part5\P5-F49.png
+06,P5-F53,재작업,중앙에 시험 강조점 박스가 있고 조직 인증/제품 인증 비교가 과밀함. 시험 문구 없이 평가대상 차이를 정리해야 함.,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\04_재작업\Part5\P5-F53.png
+06,P5-F54,재작업,사이버 윤리 항목 설명에 깨진 한글과 부정확한 문장이 많음. 책임·존중·공정·프라이버시 등 핵심 원칙 재작성 필요.,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\04_재작업\Part5\P5-F54.png
+06,P5-F55,재작업,여러 설명 문구가 깨져 있고 시험 강조 박스가 남아 있음. 게시 전 점검-게시-확산-피해대응 흐름을 정확히 정리해야 함.,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\04_재작업\Part5\P5-F55.png
+06,P5-F64,재작업,상단 전체 제목과 일부 영어 오탈자가 남아 있음. 법률별 보호대상·목적 차이를 제목 없이 명확히 표시해야 함.,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\04_재작업\Part5\P5-F64.png
+06,P5-F68,재작업,상단 전체 제목과 하단 그림 코드가 남아 있음. 위원회-관계 중앙행정기관-관리기관-전문기관 역할 흐름만 표시해야 함.,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\04_재작업\Part5\P5-F68.png
