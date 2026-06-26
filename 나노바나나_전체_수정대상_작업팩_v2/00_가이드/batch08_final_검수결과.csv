@@ -1,0 +1,11 @@
+﻿batch,code,expected_width,expected_height,actual_width,actual_height,dimension_ok,visual_status,final_source,current_location
+08-final,P2-F64,1600,850,1600,850,True,통과,nano_banana,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part2\P2-F64.png
+08-final,P3-F28,1800,1004,1800,1004,True,통과,nano_banana,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part3\P3-F28.png
+08-final,P3-F55,1800,1004,1800,1004,True,통과,nano_banana,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part3\P3-F55.png
+08-final,P3-F68,1800,1004,1800,1004,True,통과,nano_banana,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part3\P3-F68.png
+08-final,P4-F75,1600,893,1600,893,True,통과,nano_banana,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part4\P4-F75.png
+08-final,P5-F40,1600,893,1600,893,True,통과,nano_banana,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part5\P5-F40.png
+08-final,P1-F42,2048,1136,2048,1136,True,통과,nano_banana,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part1\P1-F42.png
+08-final,P2-F05,2816,1536,2816,1536,True,통과,nano_banana,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part2\P2-F05.png
+08-final,P3-F01,1800,1004,1800,1004,True,통과,nano_banana,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part3\P3-F01.png
+08-final,P3-F02,1800,1004,1800,1004,True,통과,nano_banana,C:\Users\javam\OneDrive\Documents\그림만들기\나노바나나_전체_수정대상_작업팩_v2\03_수정완료\Part3\P3-F02.png
