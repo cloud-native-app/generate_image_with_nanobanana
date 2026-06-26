@@ -215,6 +215,7 @@ def main() -> int:
     parser.add_argument("--dry-run", action="store_true", help="Print selected rows without calling the API.")
     parser.add_argument("--timeout", type=int, default=180)
     parser.add_argument("--sleep", type=float, default=2.0, help="Delay between API calls.")
+    parser.add_argument("--continue-on-error", action="store_true", help="Record failed rows and keep processing the batch.")
     args = parser.parse_args()
 
     root = args.root
@@ -237,6 +238,7 @@ def main() -> int:
 
     qa_rows: list[dict[str, Any]] = []
     completed: set[str] = set()
+    failed = 0
     response_dir = find_file(root, "00_*") / "nano_banana_responses"
     response_dir.mkdir(parents=True, exist_ok=True)
 
@@ -256,12 +258,62 @@ def main() -> int:
             ],
         }
         print(f"[{idx}/{len(selected)}] calling {code} ...")
-        response = post_json(INTERACTIONS_URL, api_key, payload, args.timeout)
+        try:
+            response = post_json(INTERACTIONS_URL, api_key, payload, args.timeout)
+        except Exception as exc:
+            failed += 1
+            print(f"ERROR {code}: {exc}", file=sys.stderr)
+            qa_rows.append(
+                {
+                    "batch": args.batch,
+                    "code": code,
+                    "title": row["title"],
+                    "action": row["action"],
+                    "model": args.model,
+                    "expected_width": row["source_width"],
+                    "expected_height": row["source_height"],
+                    "actual_width": "",
+                    "actual_height": "",
+                    "dimension_ok": False,
+                    "output_abs": str(out),
+                    "response_json": str(response_json),
+                    "status": "API_ERROR",
+                    "note": str(exc),
+                }
+            )
+            if not args.continue_on_error:
+                raise
+            time.sleep(args.sleep)
+            continue
         response_json.write_text(json.dumps(response, ensure_ascii=False, indent=2), encoding="utf-8")
 
         image_data = find_output_image_data(response)
         if not image_data:
-            raise RuntimeError(f"{code}: response did not contain output image data. Saved {response_json}")
+            failed += 1
+            message = f"{code}: response did not contain output image data. Saved {response_json}"
+            print(f"ERROR {message}", file=sys.stderr)
+            qa_rows.append(
+                {
+                    "batch": args.batch,
+                    "code": code,
+                    "title": row["title"],
+                    "action": row["action"],
+                    "model": args.model,
+                    "expected_width": row["source_width"],
+                    "expected_height": row["source_height"],
+                    "actual_width": "",
+                    "actual_height": "",
+                    "dimension_ok": False,
+                    "output_abs": str(out),
+                    "response_json": str(response_json),
+                    "status": "API_ERROR",
+                    "note": message,
+                }
+            )
+            if not args.continue_on_error:
+                raise RuntimeError(message)
+            time.sleep(args.sleep)
+            continue
         image_bytes = base64.b64decode(image_data)
         expected = (int(row["source_width"]), int(row["source_height"]))
         image = normalize_image(image_bytes, expected)
@@ -296,6 +348,7 @@ def main() -> int:
     update_management(root, completed, args.batch)
     print(f"qa={qa_path}")
     print(f"completed={len(completed)}")
+    print(f"failed={failed}")
     return 0
 
 
