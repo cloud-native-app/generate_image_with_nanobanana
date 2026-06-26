@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"SSH 연결 과정의 순서 오류가 정확히 수정되었으며, 다이어그램의 전반적인 개념 정확성, 가독성, 레이아웃 및 제목 정책 준수 여부가 모두 양호합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"SSH 연결 과정에서 호스트키 검증 순서 오류가 성공적으로 수정되었으며, 전반적인 다이어그램의 가독성과 정보 전달력이 향상되었습니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
           }
         ],
         "role": "model"
@@ -15,8 +15,8 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 1060,
-    "candidatesTokenCount": 164,
-    "totalTokenCount": 2072,
+    "candidatesTokenCount": 156,
+    "totalTokenCount": 2656,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
@@ -27,9 +27,9 @@
         "tokenCount": 516
       }
     ],
-    "thoughtsTokenCount": 848,
+    "thoughtsTokenCount": 1440,
     "serviceTier": "standard"
   },
   "modelVersion": "gemini-2.5-flash",
-  "responseId": "XqE-avutMYK3juMPwPya-AM"
+  "responseId": "rNU-arGXDarg1e8Pl4rMkQU"
 }

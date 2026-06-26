@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"IPv6 NDP 기능(RS/RA, NS/NA, DAD)이 명확하게 분리되었고, 하단의 전환 기술 패널도 잘 유지되어 요구사항이 모두 충족되었습니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"요구된 수정사항(호스트↔라우터, 호스트↔이웃, DAD 분리 및 하단 전환 기술 패널 유지)이 모두 반영되었으며, 다이어그램의 개념적 정확성, 가독성, 레이아웃, 제목 정책 준수 여부 모두 양호합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
           }
         ],
         "role": "model"
@@ -15,8 +15,8 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 1055,
-    "candidatesTokenCount": 163,
-    "totalTokenCount": 2014,
+    "candidatesTokenCount": 185,
+    "totalTokenCount": 1983,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
@@ -27,9 +27,9 @@
         "tokenCount": 516
       }
     ],
-    "thoughtsTokenCount": 796,
+    "thoughtsTokenCount": 743,
     "serviceTier": "standard"
   },
   "modelVersion": "gemini-2.5-flash",
-  "responseId": "IaQ-apzjBKSzvr0P5IPuoAQ"
+  "responseId": "ytU-arWpFsGn2roPzMiKsAk"
 }

@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"DORA 단계별 방향이 명확하게 표시되었고, 공격 및 방어 관련 내용은 별도 패널로 분리되어 요구사항이 모두 충족되었습니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"DORA 절차의 방향이 명확하게 표시되었고, DHCP 공격 유형과 방어 기법이 별도의 패널로 잘 분리되어 가독성과 이해도가 크게 향상되었습니다. 필요한 수정 사항이 모두 반영되었으며, 개념적 정확성, 텍스트 가독성, 제목 정책 준수 및 레이아웃 모두 양호합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
           }
         ],
         "role": "model"
@@ -15,8 +15,8 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 1053,
-    "candidatesTokenCount": 155,
-    "totalTokenCount": 2223,
+    "candidatesTokenCount": 196,
+    "totalTokenCount": 1966,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
@@ -27,9 +27,9 @@
         "tokenCount": 516
       }
     ],
-    "thoughtsTokenCount": 1015,
+    "thoughtsTokenCount": 717,
     "serviceTier": "standard"
   },
   "modelVersion": "gemini-2.5-flash",
-  "responseId": "HKE-asnnJtu80-kPoYSviQY"
+  "responseId": "cdU-asXlEIeB1e8P-JXVoAQ"
 }

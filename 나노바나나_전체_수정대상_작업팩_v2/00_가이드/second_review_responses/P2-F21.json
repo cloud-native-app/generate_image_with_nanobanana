@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"요구된 수정 사항(ping·traceroute 설명 이동 및 Anycast 정의 변경)이 모두 반영되었으며, 다이어그램의 개념적 정확성, 텍스트 가독성, 레이아웃, 제목 정책 준수 등 모든 항목이 양호합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"요구된 수정 사항(ping·traceroute 설명 ICMP 영역으로 이동, Anycast 정의 변경)이 모두 정확하게 반영되었으며, 다이어그램의 개념적 정확성과 가독성이 우수합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
           }
         ],
         "role": "model"
@@ -15,8 +15,8 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 1055,
-    "candidatesTokenCount": 176,
-    "totalTokenCount": 2069,
+    "candidatesTokenCount": 165,
+    "totalTokenCount": 2462,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
@@ -27,9 +27,9 @@
         "tokenCount": 516
       }
     ],
-    "thoughtsTokenCount": 838,
+    "thoughtsTokenCount": 1242,
     "serviceTier": "standard"
   },
   "modelVersion": "gemini-2.5-flash",
-  "responseId": "KKQ-ataKK_7U2roPq7qE0AI"
+  "responseId": "0NU-avKnOurgvr0PrOaHyQM"
 }

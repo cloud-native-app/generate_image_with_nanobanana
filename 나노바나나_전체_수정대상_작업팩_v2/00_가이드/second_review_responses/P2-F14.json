@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"요구된 `/24` 블록의 `/25`, `/26`, `/27`, 남은 `/27` 비중첩 순차 배정 및 큰 요구부터, 경계 정렬, 중첩 금지 원칙이 명확하게 반영되었으며, 개념적으로 정확하고 모든 정책을 준수합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"요구된 수정사항(비중첩 순차 배정, 큰 요구부터, 경계 정렬, 중첩 금지 표시)이 모두 반영되었으며, VLSM 개념이 정확하게 표현되었습니다. 다이어그램의 가독성 및 레이아웃도 우수합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
           }
         ],
         "role": "model"
@@ -15,8 +15,8 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 1079,
-    "candidatesTokenCount": 190,
-    "totalTokenCount": 2875,
+    "candidatesTokenCount": 180,
+    "totalTokenCount": 2622,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
@@ -27,9 +27,9 @@
         "tokenCount": 516
       }
     ],
-    "thoughtsTokenCount": 1606,
+    "thoughtsTokenCount": 1363,
     "serviceTier": "standard"
   },
   "modelVersion": "gemini-2.5-flash",
-  "responseId": "EqQ-apDmOpHs2roPjaiByAI"
+  "responseId": "wNU-apiAK8no2roPp-Xn4Qw"
 }

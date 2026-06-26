@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"요구된 수정사항(Dual-Homed Host, Screened Host, Screened Subnet의 개념 재구성)이 최종 이미지에 정확히 반영되었으며, 다이어그램의 개념적 정확성, 한글 텍스트 가독성, 레이아웃, 제목 정책 준수 등 모든 검토 항목을 충족합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"Dual-Homed Host, Screened Host, Screened Subnet의 배치 구조가 표준 개념에 맞게 정확히 재구성되었으며, 모든 요구사항이 충족되었습니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
           }
         ],
         "role": "model"
@@ -15,8 +15,8 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 1055,
-    "candidatesTokenCount": 191,
-    "totalTokenCount": 2853,
+    "candidatesTokenCount": 158,
+    "totalTokenCount": 2448,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
@@ -27,9 +27,9 @@
         "tokenCount": 516
       }
     ],
-    "thoughtsTokenCount": 1607,
+    "thoughtsTokenCount": 1235,
     "serviceTier": "standard"
   },
   "modelVersion": "gemini-2.5-flash",
-  "responseId": "SqE-au2PENDLrfcP6_DBuQY"
+  "responseId": "mNU-aovuCIrD0-kPjK7WqAw"
 }

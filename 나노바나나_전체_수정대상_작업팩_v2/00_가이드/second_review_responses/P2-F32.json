@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"요청된 EAP Challenge/Response 왕복 표시와 최종 Access-Accept/EAP-Success 이후 포트 개방 시점 수정이 정확하게 반영되었습니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"EAP Challenge/Response 왕복 흐름과 포트 개방 시점이 정확하게 반영되어 802.1X·EAP·RADIUS 인증 흐름이 개념적으로 정확하게 표현되었습니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
           }
         ],
         "role": "model"
@@ -15,8 +15,8 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 1058,
-    "candidatesTokenCount": 155,
-    "totalTokenCount": 2858,
+    "candidatesTokenCount": 163,
+    "totalTokenCount": 2227,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
@@ -27,9 +27,9 @@
         "tokenCount": 516
       }
     ],
-    "thoughtsTokenCount": 1645,
+    "thoughtsTokenCount": 1006,
     "serviceTier": "standard"
   },
   "modelVersion": "gemini-2.5-flash",
-  "responseId": "NaE-ap34GfCRjuMPzMWD0A8"
+  "responseId": "htU-avmDKLqc1e8P6Ym0oAM"
 }

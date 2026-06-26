@@ -4,7 +4,7 @@
       "content": {
         "parts": [
           {
-            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"AH의 인증 범위와 Transport/Tunnel 모드의 대표적인 사용 예시가 명확하게 수정되었으며, 다이어그램의 개념적 정확성과 가독성이 우수합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"required_correction_met\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"AH 보호 범위가 '변하지 않는 IP 헤더 필드와 Payload 인증 (전송 중 변경되는 필드 제외)'로 명확히 수정되었고, Transport/Tunnel 모드의 사용 범위가 '대표 사용 예'로 정확하게 표현되었습니다. 전반적인 다이어그램의 가독성과 개념적 정확성이 우수합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
           }
         ],
         "role": "model"
@@ -15,8 +15,8 @@
   ],
   "usageMetadata": {
     "promptTokenCount": 1047,
-    "candidatesTokenCount": 158,
-    "totalTokenCount": 2544,
+    "candidatesTokenCount": 191,
+    "totalTokenCount": 2297,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
@@ -27,9 +27,9 @@
         "tokenCount": 516
       }
     ],
-    "thoughtsTokenCount": 1339,
+    "thoughtsTokenCount": 1059,
     "serviceTier": "standard"
   },
   "modelVersion": "gemini-2.5-flash",
-  "responseId": "OqQ-aq-IJuio2roPhpuHCA"
+  "responseId": "49U-atfhJP-h2roPgdvH-A8"
 }
