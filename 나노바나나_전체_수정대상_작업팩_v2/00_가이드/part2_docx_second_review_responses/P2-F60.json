@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"style_converted_ok\": true,\n  \"content_preserved_ok\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"최종 이미지는 원본의 모든 기술적 내용과 흐름을 보존하면서 세련된 3D 스타일로 성공적으로 변환되었으며, 모든 한국어 텍스트가 명확하게 읽히고 레이아웃도 정확합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1044,
+    "candidatesTokenCount": 184,
+    "totalTokenCount": 2204,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 528
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 976,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "6FU_ao3cHK3b2roPvPiB2Qw"
+}
