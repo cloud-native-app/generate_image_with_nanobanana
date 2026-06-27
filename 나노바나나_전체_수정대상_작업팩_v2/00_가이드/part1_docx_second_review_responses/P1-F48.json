@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"style_converted_ok\": true,\n  \"content_preserved_ok\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"Image 1은 원본의 평면적인 스타일을 세련된 Nano Banana 스타일로 성공적으로 변환했으며, 모든 핵심 내용과 흐름, 한국어 레이블을 정확하게 보존했습니다. 상단 제목 정책도 잘 준수되었습니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": [\n    \"5단계의 하위 레이블이 원본의 \\\"오탐·문맥 확인\\\"에서 \\\"오탐·오류 확인\\\"으로 변경되었고, 7단계의 하위 레이블이 원본의 \\\"패치·설정 보완통제\\\"에서 \\\"패치·설정·보안 통제\\\"로 변경되었으나, 전반적인 의미와 개념적 정확성은 유지됩니다.\"\n  ]\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1191,
+    "candidatesTokenCount": 276,
+    "totalTokenCount": 2953,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 675
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1486,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "73I_apvEOpD82roPrInz0Aw"
+}

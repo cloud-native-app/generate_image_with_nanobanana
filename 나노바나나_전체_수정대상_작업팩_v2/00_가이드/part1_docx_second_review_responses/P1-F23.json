@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"style_converted_ok\": true,\n  \"content_preserved_ok\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"원본 이미지의 모든 내용과 구조, 한국어 텍스트가 성공적으로 보존되었으며, Nano Banana 스타일로 시각적 품질이 향상되었습니다. 제목 정책도 준수되었습니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1218,
+    "candidatesTokenCount": 172,
+    "totalTokenCount": 2312,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 702
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 922,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "TXI_avqYCIu61e8P5dP2qAQ"
+}

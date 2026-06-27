@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"style_converted_ok\": true,\n  \"content_preserved_ok\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"최종 이미지는 원본의 모든 기술적 내용과 흐름, 한국어 레이블을 성공적으로 보존하면서 Nano Banana 스타일로 세련되게 변환되었습니다. 상단 제목/배너가 없으며, 텍스트 가독성 및 레이아웃도 양호합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1212,
+    "candidatesTokenCount": 193,
+    "totalTokenCount": 2537,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 696
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1132,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "aHI_avuQKtDM2roPqNvhoQk"
+}

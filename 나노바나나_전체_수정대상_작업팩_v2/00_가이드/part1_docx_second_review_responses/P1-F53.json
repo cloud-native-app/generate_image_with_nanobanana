@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"style_converted_ok\": true,\n  \"content_preserved_ok\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"최종 이미지는 원본의 모든 내용과 구조를 나노 바나나 스타일로 성공적으로 변환했으며, 텍스트 가독성, 레이아웃, 개념적 정확성 및 제목 정책 준수 등 모든 검사 항목을 통과했습니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1253,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 2572,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 737
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1133,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "F3M_aqn6Lu2x0-kPq-CTsAE"
+}

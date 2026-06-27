@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"verdict\": \"PASS\",\n  \"confidence\": 1.0,\n  \"style_converted_ok\": true,\n  \"content_preserved_ok\": true,\n  \"title_policy_ok\": true,\n  \"no_internal_code_or_filename\": true,\n  \"korean_text_ok\": true,\n  \"layout_ok\": true,\n  \"concept_accuracy_ok\": true,\n  \"summary_ko\": \"이미지 1은 원본 이미지 2의 모든 내용과 흐름을 성공적으로 보존하고, 세련된 Nano Banana 스타일로 변환되었으며, 한국어 텍스트도 명확하고 정확합니다. 제목 정책 및 기타 모든 검사 항목을 충족합니다.\",\n  \"failure_reasons_ko\": [],\n  \"observed_issues_ko\": []\n}"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1188,
+    "candidatesTokenCount": 191,
+    "totalTokenCount": 2568,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 672
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 516
+      }
+    ],
+    "thoughtsTokenCount": 1189,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "enI_aqfQH_mw0-kPhOmfqQs"
+}
